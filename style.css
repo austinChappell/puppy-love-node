@@ -1,0 +1,133 @@
+html, body {
+  font-family: sans-serif;
+  background-color: gray;
+}
+
+body > div {
+  width: 90%;
+  margin: 10px auto 60px;
+  background-color: white;
+}
+
+#site_header {
+  background-color: #FF8523;
+  padding: 20px 20px 40px;
+}
+
+#logo img {
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  padding: 0.5em 2.0em;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #FF8523;
+}
+
+#page_content {
+  padding: 20px;
+}
+
+section {
+  border-bottom: 5px solid #DEDEDE;
+  padding: 10px 0 50px;
+}
+
+h2, h3 {
+  color: #1FABE5;
+}
+
+section p a {
+  color: #1FABE5;
+}
+
+ul li {
+  font-weight: 700;
+}
+
+table {
+  width: auto;
+  border-collapse: collapse;
+}
+
+thead td {
+  background-color: #1FABE5;
+  color: white;
+  padding: 1.0em;
+  border: 1px solid #2B51FF;
+  box-sizing: border-box;
+}
+
+td {
+  margin: 0;
+  border: 1px solid #1FABE5;
+  padding: 1.0em;
+}
+
+td img {
+}
+
+form {
+  background-color: #EEEEEE;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+form > div {
+  background-color: inherit;
+}
+
+form .name {
+  background-color: #FF8523;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form .name label {
+  font-weight: 600;
+}
+
+form .name input {
+  line-height: 350%;
+  vertical-align: middle;
+  margin-right: 30px;
+  border: none;
+  border-radius: 2px;
+  width: 30%;
+}
+
+.city_container {
+  margin: 30px auto;
+}
+
+textarea {
+  margin: 10px 0;
+  border: 1px solid #1FABE5;
+}
+
+.submit_container input {
+  background-color: #1FABE5;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+  form .name input {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+  }
+}
